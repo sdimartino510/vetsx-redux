@@ -95,6 +95,7 @@ const asyncValidate = async ({ email }) => {
       throw new Error();
     }
   } catch (e) {
+    // eslint-disable-next-line
     throw { email: 'Email is already taken' };
   }
 };
