@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(routes);
 require('./services/passport');
 // Connect database
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/reduxTodo', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/vetsx-redux', {
   useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false,
 });
 
