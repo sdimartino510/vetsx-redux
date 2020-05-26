@@ -17,8 +17,8 @@ class SignOut extends Component {
     console.log("render");
     return (
       <Container>
-        <Message error header="We're sorry to see you go :("/>
-        <Button as={Link} to='/' content='Go back to sign up'/>
+        <Message error header="You have been signed out."/>
+        <Button as={Link} to='/signin' content='Sign in again'/>
       </Container>
     );
   }
