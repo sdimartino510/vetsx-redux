@@ -25,14 +25,13 @@ const UserSchema = new Schema({
     ref: 'Todo',
   }],
 });
-
-UserSchema.methods.toJSON = function() {
-  var obj = this.toObject();
+// eslint-disable-next-line
+UserSchema.methods.toJSON = function () {
+  const obj = this.toObject();
   delete obj.password;
   return obj;
 };
-
-
+// eslint-disable-next-line
 UserSchema.methods.comparePassword = async function (candidatePassword) {
   const user = this;
   try {
@@ -42,7 +41,7 @@ UserSchema.methods.comparePassword = async function (candidatePassword) {
     return Promise.reject(e);
   }
 };
-
+// eslint-disable-next-line
 UserSchema.pre('save', async function (next) {
   // gets access to the user model that is currently being saved
   const user = this;
