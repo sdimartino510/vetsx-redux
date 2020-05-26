@@ -6,15 +6,11 @@ import { Container, Message, Button } from 'semantic-ui-react';
 import { signOut } from '../../actions/auth';
 
 class SignOut extends Component {
-
-
   componentDidMount() {
-    console.log("Did mount");
     this.props.signOut();
   }
 
   render() {
-    console.log("render");
     return (
       <Container>
         <Message error header="You have been signed out."/>
