@@ -27,7 +27,7 @@ class SignUp extends Component {
         error={ meta.touched && meta.error }
         icon='user'
         iconPosition='left'
-        autoComplete='off'
+        autoComplete='on'
         placeholder='Email address'
       />
     )
@@ -88,20 +88,20 @@ class SignUp extends Component {
   }
 };
 
-const asyncValidate = async ({ email }) => {
-  try {
-    const { data } = await axios.get(`/api/user/emails?email=${email}`);
-    if (data) {
-      throw new Error();
-    }
-  } catch (e) {
-    // eslint-disable-next-line
-    throw { email: 'Email is already taken' };
-  }
-};
+// const asyncValidate = async ({ email }) => {
+//   try {
+//     const { data } = await axios.get(`/api/user/emails?email=${email}`);
+//     if (data) {
+//       throw new Error();
+//     }
+//   } catch (e) {
+//     // eslint-disable-next-line
+//     throw { email: 'Email is already taken' };
+//   }
+// };
 
 export default reduxForm({
   form: 'SignUp',
-  asyncValidate,
+  // asyncValidate,
   asyncChangeFields: ['email']
 })(SignUp);
