@@ -14,7 +14,7 @@ class SignOut extends Component {
     return (
       <Container>
         <Message error header="You have been signed out."/>
-        <Button as={Link} to='/signin' content='Sign in again'/>
+        <Button as={ Link } to='/signin' content='Sign in again'/>
       </Container>
     );
   }
