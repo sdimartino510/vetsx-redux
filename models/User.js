@@ -20,10 +20,6 @@ const UserSchema = new Schema({
     type: Date,
     default: Date.now(),
   },
-  todos: [{
-    type: Schema.Types.ObjectId,
-    ref: 'Todo',
-  }],
 });
 // eslint-disable-next-line
 UserSchema.methods.toJSON = function () {
