@@ -1,0 +1,537 @@
+repo_name: sdimartino510/vetsx-redux
+report_id: 40310a9c995a1087e6f9c42d9923122d
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T15:18:27+00:00'
+requested_by: sdimartino510
+provider: github
+branch: master
+detected_tools_count: 36
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: Semantic UI
+  description: A UI Component library implemented using a set of specifications designed
+    around natural language
+  website_url: http://semantic-ui.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1106/semantic-ui.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 5.9.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: eslint-plugin-flowtype
+  description: Flowtype linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-flowtype
+  version: 4.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15940/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: jwt-simple
+  description: JWT
+  package_url: https://www.npmjs.com/jwt-simple
+  version: 0.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17908/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: passport-jwt
+  description: Passport authentication strategy using JSON Web Tokens
+  package_url: https://www.npmjs.com/passport-jwt
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18238/default_d0bdfc944c04fa7e84198f9a2784cc716a3d91a3.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: passport-local
+  description: Local username and password authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-local
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16747/default_adce7cef6d131ffc31466624541462e4db9534d4.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: redux-form
+  description: A higher order component decorator for forms using Redux and React
+  package_url: https://www.npmjs.com/redux-form
+  version: 8.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16870/default_884deeafc4d4b680b6d9cb7e3759ba2db025e8e7.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: semantic-ui-react
+  description: The official Semantic-UI-React integration
+  package_url: https://www.npmjs.com/semantic-ui-react
+  version: 0.88.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17202/default_077b6c5a1d83537f4c2e69cb474f20509daa99ac.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  version: 13.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/sdimartino510/vetsx-redux/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sergio Di Martino
+  last_updated_on: 2020-05-22 22:18:38.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in validator.js
+    cve_id: CVE-2021-3765
+    cve_url: https://github.com/advisories/GHSA-qgmg-gppg-76g5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 13.7.0
+  - name: Inefficient Regular Expression Complexity in Validator.js
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xx4c-jj58-r7x6
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 13.7.0
